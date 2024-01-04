@@ -1,0 +1,31 @@
+h1{
+    color: aqua;
+}
+p{
+    /* color: blue; */
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    /* font-family: Arial, Helvetica, sans-serif; */
+
+    text-decoration: underline;
+    /* border: 2px solid black; */
+} 
+
+/* //child selector// */
+/* li>a{
+    color: aqua;
+} */
+/* body{
+    background-color: black;
+} */
+/* li  a{
+    /* color: red; */
+    /* color: #33ff4f; */
+    /* color:rgb(246, 60, 124); */
+/* }  */ 
+/* div{
+    background-color:rgba(24, 255, 124,1);
+    /* color: rgba(246, 60, 124,0.5; */
+    /* opacity: 0.5; */
+/* } 
