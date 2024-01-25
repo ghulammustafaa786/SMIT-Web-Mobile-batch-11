@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.control {
+    flex-wrap: wrap;
+}
+
+.banner {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-wrap: wrap;
+
+
+}
+
+h1 {
+    font-size: 3em;
+    text-decoration: underline;
+
+}
+
+p {
+    font-size: 1.5em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: darkcyan;
+    color: burlywood;
+    border-radius: 25px;
+
+}
+
+.img1 {
+
+    background-image: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg);
+}
+
+.img2 {
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630);
+}
+
+.img3 {
+    background-image: url(https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg);
+}
+
+/* .parant{
+    background-color: aqua;
+    position: relative;
+}
+.parant div{
+    height: 150px;
+    width: 150px;
+
+}
+.red{
+    background-color: red;
+    position: relative;
+   top: 10px;
+   left: 10px;
+}
+
+.green{
+    background-color: green;
+    position: absolute; 
+    right: 20px;
+    bottom: 20px;
+    
+
+  
+}
+.blue{
+    background-color: blue;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    
+} */
+
+.card {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+
+}
+
+.card div {
+    width: 300px;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+
+}
+
+.sections {
+    display: flex;
+}
+
+.sections div {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.sec1 {
+    background-image: url(https://i.pinimg.com/736x/18/b5/0e/18b50e96c8b634e7ba98fed7e7532cc0.jpg);
+    flex:1;
+}
+
+.sec2 {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/891/784/large_2x/wild-animals-with-beaks-in-their-natural-habitat-of-nature-generated-by-ai-photo.jpg);
+    flex:1;
+}
+
+.sec3 {
+  background-image: url(https://images.unsplash.com/photo-1555169062-013468b47731?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YW5pbWFsfGVufDB8fDB8fHww);
+  flex:1;
+}
+
+.sec4 {
+    background-image: url(https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2lsZCUyMGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D);
+    flex:1;
+}
+
+.sec5 {
+    background-image: url(https://images.unsplash.com/photo-1484406566174-9da000fda645?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YW5pbWFsfGVufDB8fDB8fHww);
+    flex:1;
+}
+.imgsec{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 20px;
+}
+img div{
+    height: 200px;
+    width: 200px;
+    margin: 8px;
+    display: inline-block;
+    
+}
+
