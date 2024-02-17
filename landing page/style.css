@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#box1 {
+
+    padding-left: 100px;
+    padding-top: 100px;
+
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+}
+
+#img1 {
+    /* border: 1px solid black; */
+}
+
+#img1:hover {
+    opacity: 0.5;
+
+
+}
+
+#img1 {
+    /* border: 1px solid black; */
+}
+
+#img1:hover {
+    opacity: 0.5;
+
+
+}
+
+#img2 {
+    /* border: 1px solid darkgray; */
+}
+
+#img2:hover {
+    opacity: 0.5;
+    
+
+
+}
+
+#img3 {
+    /* border: 1px solid black; */
+    
+}
+
+#img3:hover {
+    opacity: 0.5;
+    
+
+
+}
+
+#img4 {
+    /* border: 1px solid black; */
+}
+
+#img4:hover {
+    opacity: 0.5;
+
+
+}
+
+#img5 {
+    /* border: 1px solid black; */
+}
+
+#img5:hover {
+    opacity: 0.5;
+
+
+}
+
+#img6 {
+    /* border: 1px solid black; */
+
+}
+
+#img6:hover {
+    opacity: 0.5;
+
+
+}
+
+#para {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 4s;
+    transform: rotate3d(150deg);
+}
+
+#para:hover {
+    width: 300px;
+    height: 100px;
+}
+
+.productCard{
+   height: 300px;
+   border-radius: 15px;
+   background-image: url(./download\ \(3\).jpg);
+   background-size: cover;
+}
+.trns{
+    display: none;
+}
+
+.productCard:hover .trns{
+    display: block;
+    border-radius: 15px;
+    transition: .5s;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.5);
+    color: white;
+
+}
+.para{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    background-image: url(./download\ \(3\).jpg);
+    background-size: cover;
+
+}
+.para:hover{
+    border-radius: 15px;
+    transition: .5s;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.5);
+}
+
+.para2{
+    height: 150px;
+    width: 250px;
+
+    border-radius: 15px;
+    background-image: url(./download\ \(3\).jpg);
+    background-size: cover;
+
+}
+/* .para2:hover{
+    border-radius: 15px;
+    transition: .5s;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.5);
+} */
+.para{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    background-image: url(./download\ \(3\).jpg);
+    background-size: cover;
+
+}.para4{
+    height: 400px;
+    width: 250px;
+    border-radius: 15px;
+    background-image: url(./download\ \(3\).jpg);
+    background-size: cover;
+
+}.para{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    background-image: url(./download\ \(3\).jpg);
+    background-size: cover;
+
+}

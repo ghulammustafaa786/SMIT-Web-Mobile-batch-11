@@ -1,0 +1,23 @@
+h1{
+    display: flex;
+    align-items: end;
+}
+#img1:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+#img2:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}#img3:hover{
+    cursor: pointer;
+    opacity: 0.4;
+    background-color: blue;
+}
+.icon{
+    /* padding-right: 10px;
+    margin-right: -10px; */
+    padding-left: 1200px;
+    
+
+}
